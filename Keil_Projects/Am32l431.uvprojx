@@ -11,7 +11,6 @@
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <pCCUsed>6190000::V6.19::ARMCLANG</pCCUsed>
-      <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32L431KBUx</Device>
@@ -184,9 +183,6 @@
             <hadXRAM>0</hadXRAM>
             <uocXRam>0</uocXRam>
             <RvdsVP>2</RvdsVP>
-            <RvdsMve>0</RvdsMve>
-            <RvdsCdeCp>0</RvdsCdeCp>
-            <nBranchProt>0</nBranchProt>
             <hadIRAM2>1</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -327,7 +323,6 @@
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>1</uC99>
-            <uGnu>0</uGnu>
             <useXO>0</useXO>
             <v6Lang>3</v6Lang>
             <v6LangP>5</v6LangP>
@@ -335,7 +330,6 @@
             <vShortWch>1</vShortWch>
             <v6Lto>0</v6Lto>
             <v6WtE>0</v6WtE>
-            <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define>REF_L431,USE_FULL_LL_DRIVER,HSE_VALUE=8000000,HSE_STARTUP_TIMEOUT=100,LSE_STARTUP_TIMEOUT=5000,LSE_VALUE=32768,MSI_VALUE=4000000,EXTERNALSAI1_CLOCK_VALUE=2097000,HSI_VALUE=16000000,LSI_VALUE=32000,VDD_VALUE=3300,PREFETCH_ENABLE=0,INSTRUCTION_CACHE_ENABLE=1,DATA_CACHE_ENABLE=1,STM32L431xx</Define>
@@ -353,7 +347,7 @@
             <NoWarn>0</NoWarn>
             <uSurpInc>0</uSurpInc>
             <useXO>0</useXO>
-            <ClangAsOpt>1</ClangAsOpt>
+            <uClangAs>0</uClangAs>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define></Define>
@@ -611,7 +605,6 @@
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <pCCUsed>6190000::V6.19::ARMCLANG</pCCUsed>
-      <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32L431KBUx</Device>
@@ -784,9 +777,6 @@
             <hadXRAM>0</hadXRAM>
             <uocXRam>0</uocXRam>
             <RvdsVP>2</RvdsVP>
-            <RvdsMve>0</RvdsMve>
-            <RvdsCdeCp>0</RvdsCdeCp>
-            <nBranchProt>0</nBranchProt>
             <hadIRAM2>1</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -927,7 +917,6 @@
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>1</uC99>
-            <uGnu>0</uGnu>
             <useXO>0</useXO>
             <v6Lang>3</v6Lang>
             <v6LangP>5</v6LangP>
@@ -935,7 +924,6 @@
             <vShortWch>1</vShortWch>
             <v6Lto>0</v6Lto>
             <v6WtE>0</v6WtE>
-            <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define>NEUTRON_L431,USE_FULL_LL_DRIVER,HSE_VALUE=8000000,HSE_STARTUP_TIMEOUT=100,LSE_STARTUP_TIMEOUT=5000,LSE_VALUE=32768,MSI_VALUE=4000000,EXTERNALSAI1_CLOCK_VALUE=2097000,HSI_VALUE=16000000,LSI_VALUE=32000,VDD_VALUE=3300,PREFETCH_ENABLE=0,INSTRUCTION_CACHE_ENABLE=1,DATA_CACHE_ENABLE=1,STM32L431xx</Define>
@@ -953,7 +941,7 @@
             <NoWarn>0</NoWarn>
             <uSurpInc>0</uSurpInc>
             <useXO>0</useXO>
-            <ClangAsOpt>1</ClangAsOpt>
+            <uClangAs>0</uClangAs>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define></Define>
@@ -1211,7 +1199,6 @@
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <pCCUsed>6190000::V6.19::ARMCLANG</pCCUsed>
-      <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32L431KBUx</Device>
@@ -1384,9 +1371,6 @@
             <hadXRAM>0</hadXRAM>
             <uocXRam>0</uocXRam>
             <RvdsVP>2</RvdsVP>
-            <RvdsMve>0</RvdsMve>
-            <RvdsCdeCp>0</RvdsCdeCp>
-            <nBranchProt>0</nBranchProt>
             <hadIRAM2>1</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -1527,7 +1511,6 @@
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>1</uC99>
-            <uGnu>0</uGnu>
             <useXO>0</useXO>
             <v6Lang>3</v6Lang>
             <v6LangP>5</v6LangP>
@@ -1535,7 +1518,6 @@
             <vShortWch>1</vShortWch>
             <v6Lto>0</v6Lto>
             <v6WtE>0</v6WtE>
-            <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define>VIMDRONES_L431,USE_FULL_LL_DRIVER,HSE_VALUE=8000000,HSE_STARTUP_TIMEOUT=100,LSE_STARTUP_TIMEOUT=5000,LSE_VALUE=32768,MSI_VALUE=4000000,EXTERNALSAI1_CLOCK_VALUE=2097000,HSI_VALUE=16000000,LSI_VALUE=32000,VDD_VALUE=3300,PREFETCH_ENABLE=0,INSTRUCTION_CACHE_ENABLE=1,DATA_CACHE_ENABLE=1,STM32L431xx</Define>
@@ -1553,7 +1535,7 @@
             <NoWarn>0</NoWarn>
             <uSurpInc>0</uSurpInc>
             <useXO>0</useXO>
-            <ClangAsOpt>1</ClangAsOpt>
+            <uClangAs>0</uClangAs>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define></Define>
@@ -1811,7 +1793,6 @@
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <pCCUsed>6190000::V6.19::ARMCLANG</pCCUsed>
-      <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32L431KBUx</Device>
@@ -1984,9 +1965,6 @@
             <hadXRAM>0</hadXRAM>
             <uocXRam>0</uocXRam>
             <RvdsVP>2</RvdsVP>
-            <RvdsMve>0</RvdsMve>
-            <RvdsCdeCp>0</RvdsCdeCp>
-            <nBranchProt>0</nBranchProt>
             <hadIRAM2>1</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -2127,7 +2105,6 @@
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>1</uC99>
-            <uGnu>0</uGnu>
             <useXO>0</useXO>
             <v6Lang>3</v6Lang>
             <v6LangP>5</v6LangP>
@@ -2135,7 +2112,6 @@
             <vShortWch>1</vShortWch>
             <v6Lto>0</v6Lto>
             <v6WtE>0</v6WtE>
-            <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define>NEUTRON_SINGLE_L431,USE_FULL_LL_DRIVER,HSE_VALUE=8000000,HSE_STARTUP_TIMEOUT=100,LSE_STARTUP_TIMEOUT=5000,LSE_VALUE=32768,MSI_VALUE=4000000,EXTERNALSAI1_CLOCK_VALUE=2097000,HSI_VALUE=16000000,LSI_VALUE=32000,VDD_VALUE=3300,PREFETCH_ENABLE=0,INSTRUCTION_CACHE_ENABLE=1,DATA_CACHE_ENABLE=1,STM32L431xx</Define>
@@ -2153,7 +2129,7 @@
             <NoWarn>0</NoWarn>
             <uSurpInc>0</uSurpInc>
             <useXO>0</useXO>
-            <ClangAsOpt>1</ClangAsOpt>
+            <uClangAs>0</uClangAs>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define></Define>
@@ -2344,6 +2320,11 @@
               <FileType>1</FileType>
               <FilePath>..\Src\sounds.c</FilePath>
             </File>
+            <File>
+              <FileName>kiss_telemetry.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Src\kiss_telemetry.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -2418,14 +2399,5 @@
     </components>
     <files/>
   </RTE>
-
-  <LayerInfo>
-    <Layers>
-      <Layer>
-        <LayName>Am32l431</LayName>
-        <LayPrjMark>1</LayPrjMark>
-      </Layer>
-    </Layers>
-  </LayerInfo>
 
 </Project>
