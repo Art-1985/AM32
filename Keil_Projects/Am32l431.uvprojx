@@ -1792,7 +1792,8 @@
       <TargetName>NEUTRON_SINGLE_L431</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>6190000::V6.19::ARMCLANG</pCCUsed>
+      <pArmCC>6100000::V6.10.1::.\ARMCLANG</pArmCC>
+      <pCCUsed>6100000::V6.10.1::.\ARMCLANG</pCCUsed>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32L431KBUx</Device>
