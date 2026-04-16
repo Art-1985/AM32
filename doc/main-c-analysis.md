@@ -82,6 +82,20 @@ flowchart TD
     LEE --> SV["setVolume()"]
 
     SEE --> SFN["save_flash_nolib()"]
+
+    classDef orchestration fill:#f4d35e,stroke:#7a5c00,color:#1f1f1f,stroke-width:2px;
+    classDef control fill:#9ad1d4,stroke:#245c5f,color:#102a2b,stroke-width:2px;
+    classDef commutation fill:#ee964b,stroke:#8a4513,color:#1f1f1f,stroke-width:2px;
+    classDef telemetry fill:#c6d8af,stroke:#4b6b2c,color:#1d2b12,stroke-width:2px;
+    classDef helper fill:#d9c2f0,stroke:#6b4c9a,color:#241533,stroke-width:2px;
+    classDef io fill:#f7b2b7,stroke:#9d3d47,color:#351417,stroke-width:2px;
+
+    class M,CDI,LEE,SEE orchestration;
+    class SI,SOM,TKR,PID,MAP,GAD,GSC,RB,AI,PD control;
+    class COMM,PEC,IR,ZC,GBS,ECI,CST,CCI,SCI commutation;
+    class MT,MIP,STD,MDP telemetry;
+    class PST,PIT,SND,SV,DEL helper;
+    class RDD,CDD,RFB,SFN,ADC,ABO,APO,APO2,MPI,CSP io;
 ```
 
 ## Caller To Callee Table
